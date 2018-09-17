@@ -1,6 +1,6 @@
 {
   "name": "spage-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "多页面基础构建",
   "bin": {
     "spage": "index.js"

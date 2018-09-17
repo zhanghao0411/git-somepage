@@ -25,7 +25,7 @@ program.version('1.0.0', '-v, --version')
       ]).then((answers) => {
         const spinner = ora('正在下载模板...');
         spinner.start();
-       download('direct:https://github.com/zhanghao0411/spages-cli.git', 'templates',{ clone: true }, function(err) {
+       download('direct:https://github.com/zhanghao0411/spages-cli.git', name,{ clone: true }, function(err) {
           if(err){
             spinner.fail();
             console.log(symbols.error, chalk.red(err));
