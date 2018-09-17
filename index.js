@@ -43,6 +43,8 @@ program.version('1.0.0', '-v, --version')
               fs.writeFileSync(fileName, result);
             }
             console.log(symbols.success, chalk.green('项目初始化完成'));
+            console.log(chalk.green('本项目使用默认使用gulp及sass，自带jq'));
+            console.log(chalk.green('进入项目后，请优先使用yarn进行安装'));
           }
         })
       })
